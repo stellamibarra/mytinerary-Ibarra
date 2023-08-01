@@ -13,49 +13,67 @@
 <body>
 
   <header>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <!-- Container wrapper -->
-      <div class="container  ">
-        <!-- Navbar brand -->
-        <!-- Toggle button -->
-        <!-- Collapsible wrapper -->
-        <div class="navbar-collapse" id="navbarButtons">
-          <!-- Left links -->
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">My Tinerary</a>
-            </li>
-          </ul>
-          <!-- Left links -->
+    <div class="hstack gap-3 bg-light">
 
-          <div class="d-flex align-items-center">
-            <button type="button" class="btn btn-link px-3 me-2">
-              Home
-            </button>
-            <button type="button" class="btn btn-link px-3 me-2">
-              Cities
-            </button>
-            <button type="button" class="btn btn-primary me-3">
-              Login
-            </button>
-
-          </div>
-        </div>
-        <!-- Collapsible wrapper -->
+      <div class="p-2">
+        <ul class="navbar-nav mx-5">
+          <li class="nav-item ">
+            <a class="nav-link" href="#">My Tinerary</a>
+          </li>
+        </ul>
       </div>
-      <!-- Container wrapper -->
-    </nav>
-    <!-- Navbar -->
+
+      <div class="p-2 ms-auto">
+
+        <div class="d-flex">
+          <button type="button" class="btn btn-link px-3 me-2">
+            Home
+          </button>
+          <button type="button" class="btn btn-link px-3 me-2">
+            Cities
+          </button>
+
+        </div>
+
+      </div>
+
+      <div class="vr"></div>
+
+      <div class="p-2 mx-5">
+        <button type="button" class="btn btn-primary me-3">
+          Login
+        </button>
+      </div>
+    </div>
 
   </header>
-  <main>
 
+  <main>
+    <div class=" card m-auto mt-5" style="max-width: 540px;">
+      <div class="row ">
+
+        <div class="col-md-8">
+          <div class="card-body ">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <div class="p-2 mx-5">
+              <button type="button" class="btn btn-primary me-3">
+                Login
+              </button>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6gGdWZP6E2TdMocINnDdlP5Rqte2catje6A&usqp=CAU"
+            class="img-fluid rounded-start" alt="...">
+        </div>
+      </div>
+    </div>
   </main>
   <footer>
-
   </footer>
-
   <script type="module" src="/src/main.jsx"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
